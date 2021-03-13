@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "jsx": "react",
+    "outDir": "./build/",
+    "rootDir": "./src/",
+
+    "allowSyntheticDefaultImports": true,
+
+    "esModuleInterop": true,
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "lib": [
+      "webworker",
+      "dom",
+      "es2015",
+      "es2016.array.include"
+    ],
+
+    "baseUrl": "./",
+    "paths": {
+      "*": [
+        "./src/*"
+      ]
+    }
+  }
+}
